@@ -22,15 +22,17 @@ class GradesView(APIView):
         **Use Cases**
             Get a user's grades for a given course.
         **Example Requests**
-            GET /api/grades_api/v0/grades/{course_id}?username={username}
+            GET /api/grades_api/v1/grades/{course_id}?username={username}
         **Response Values for GET**
             If no user exists with the specified username, an HTTP 404 "Not
             Found" response is returned.
             If no course exists with the specified course_id, an HTTP 404 "Not
             Found" response is returned.
-            If the user makes the request for her own account, or makes a
+            If the user makes the request for their own account, or makes a
             request for another account and has "is_staff" access, an HTTP 200
             "OK" response is returned.
+            If the user makes the request for another user's account and does
+            not have "is_staff" access, an HTTP 403 "Forbidden" is returned.
     """
     authentication_classes = (
         OAuth2AuthenticationAllowInactiveUser,

@@ -1,5 +1,5 @@
 """
-Errors thrown by the various user APIs.
+Errors thrown by the grades api.
 """
 
 
