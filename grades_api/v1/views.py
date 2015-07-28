@@ -8,9 +8,9 @@ from rest_framework.response import Response
 from rest_framework import status
 from rest_framework import permissions
 
-from util.authentication import (
+from openedx.core.lib.api.authentication import (
     SessionAuthenticationAllowInactiveUser,
-    OAuth2AuthenticationAllowInactiveUser
+    OAuth2AuthenticationAllowInactiveUser,
 )
 
 from ..errors import UserNotFound, UserNotAllowed
