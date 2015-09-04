@@ -1,6 +1,7 @@
 # edx-grades-api
 
 [![Circle CI](https://circleci.com/gh/IONISx/edx-grades-api.svg?style=svg)](https://circleci.com/gh/IONISx/edx-grades-api)
+[![Requirements Status](https://requires.io/github/IONISx/edx-grades-api/requirements.svg?branch=master)](https://requires.io/github/IONISx/edx-grades-api/requirements/?branch=master)
 
 > Grades REST Api for Open edX
 
