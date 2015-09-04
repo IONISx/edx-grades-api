@@ -4,9 +4,9 @@ from setuptools import setup, find_packages
 
 setup(
     name='edx-grades-api',
-    version='1.0.0',
+    version='1.0.1',
     description='Grades REST Api for Open edX',
-    author='edX',
+    author='IONISx',
     url='https://github.com/IONISx/edx-grades-api',
     license='AGPL',
     classifiers=[
