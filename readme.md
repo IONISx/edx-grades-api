@@ -1,5 +1,9 @@
 # edx-grades-api
 
+[![Circle CI](https://circleci.com/gh/IONISx/edx-grades-api.svg?style=svg)](https://circleci.com/gh/IONISx/edx-grades-api)
+
+> Grades REST Api for Open edX
+
 ## How to install
 
 ### Register the application

@@ -1,0 +1,11 @@
+machine:
+  python:
+    version: 2.7.3
+
+dependencies:
+  override:
+    - pip install -r local_requirements.txt
+
+test:
+  override:
+    - pylint grades_api
