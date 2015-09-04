@@ -1,0 +1,6 @@
+# Django/Framework Packages
+django>=1.4.12,<=1.4.22
+djangorestframework>=2.3.5,<=2.3.14
+
+# Open edX Packages
+-e git+https://github.com/edx/opaque-keys.git@df0dd602869e498e512659bb4bd243309e30e19a#egg=opaque-keys

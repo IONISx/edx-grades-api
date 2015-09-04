@@ -9,7 +9,7 @@ from . import views
 
 COURSE_ID_PATTERN = settings.COURSE_ID_PATTERN
 
-urlpatterns = patterns(
+urlpatterns = patterns(  # pylint: disable=invalid-name
     '',
     url(
         r'^grades/{}$'.format(COURSE_ID_PATTERN),

@@ -1,5 +1,9 @@
-from courseware import grades
-from courseware.courses import get_course_with_access
+"""
+Views for the Grades API
+"""
+
+from courseware import grades    # pylint: disable=import-error
+from courseware.courses import get_course_with_access    # pylint: disable=import-error
 
 from opaque_keys.edx.locations import SlashSeparatedCourseKey
 
@@ -8,7 +12,7 @@ from rest_framework.response import Response
 from rest_framework import status
 from rest_framework import permissions
 
-from openedx.core.lib.api.authentication import (
+from openedx.core.lib.api.authentication import (    # pylint: disable=import-error
     SessionAuthenticationAllowInactiveUser,
     OAuth2AuthenticationAllowInactiveUser,
 )

@@ -4,7 +4,7 @@ Defines the URL routes for this app.
 
 from django.conf.urls import patterns, url, include
 
-urlpatterns = patterns(
+urlpatterns = patterns(  # pylint: disable=invalid-name
     '',
     url(
         r'^v1/',

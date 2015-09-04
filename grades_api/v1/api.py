@@ -1,11 +1,18 @@
+"""
+Utility methods for the Grades API
+"""
+
 from django.core.exceptions import ObjectDoesNotExist
 
-from student.models import User
+from student.models import User    # pylint: disable=import-error
 
 from ..errors import UserNotFound, UserNotAllowed
 
 
 def get_user(requesting_user, username):
+    """
+    Returns the user to fetch grades for.
+    """
     user = None
 
     if username is None:
