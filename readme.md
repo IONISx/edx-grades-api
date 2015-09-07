@@ -6,6 +6,8 @@
 
 > Grades REST Api for Open edX
 
+WARNING: This Django application makes no sense on its own as it depends on [edx-platform](https://github.com/edx/edx-platform).
+
 ## How to install
 
 ### Register the application
